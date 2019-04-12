@@ -1,0 +1,51 @@
+#main {
+  margin: 0;
+  background: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#tooltip {
+  opacity: 0;
+  position: absolute;
+  background: #C9C9C9;
+  padding: 5px;
+  box-shadow: 2px 3px #C1C1C1;
+  border-radius: 2px;
+}
+#legend {
+  background-color: #C9C9C9;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -50px;
+  left: -150px;
+}
+.master {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.slave {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.reddiv, .greendiv {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.reddiv {
+  background-color: red;
+}
+.greendiv {
+  background-color: green;
+}

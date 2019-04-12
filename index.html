@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scatterplot for doping allegations in Tour de France</title>  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <h1 id="title">Doping in Tour de France (35 fastest times on Alpe d'Huez)</h1>
+        <div id="graph">
+          <div id="tooltip"></div>
+          <!-- Content added using D3.js -->
+        </div>
+        <div id="legend">
+          Legend:
+          <div class="master">
+            <div class="slave">
+              <div class="reddiv"></div>
+              Doping allegations
+            </div>
+            <div class="slave">
+              <div class="greendiv"></div>
+              No doping allegations
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/index.js"></script>  
+  </body>
+</html>
